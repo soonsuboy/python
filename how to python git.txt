@@ -1,0 +1,36 @@
+https://blog.naver.com/mdsd12/223258546348
+
+1.git init
+
+
+2. git add .
+
+3.git commit -m "커밋메세지"
+
+4. git remote add origin https://github.com/soonsuboy/python
+
+5. git push -u origin main
+[출처] GITHUB 계정설정/ 터미널 사용법 / 기타 에러 / 폴더 통채로 커밋하기 / Branch사용법|작성자 JI NOH
+
+
+
+
+start .
+git status
+
+# 전체 파일 git에 추적
+ git add .
+
+# 변경사항 커밋
+git commit -m "커밋내용/제목"
+
+# 파일 추가 되었는지 확인
+git status
+
+# 원격저장소에 반영하기전에, 원격저장소 추가
+git remote add origin https://github.com/soonsuboy/python
+
+# 로컬 저장소를 원격저장소에 반영
+git push origin master
+
+
